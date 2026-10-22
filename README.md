@@ -2,26 +2,49 @@
 
 **Published by LumenForge Studio**
 
-Genshin DPS Archive is a free Android character-build reference app designed to keep its build information available offline.
+Genshin DPS Archive is a free, fan-made Android character-building reference app. It is **not** a wish or pull planner. Its goal is to make character-building guidance easy to consult on an Android phone.
 
-## Download
+## Download the APK
 
-**No public APK has been published yet.** Once the first release has been built and verified, it will appear on the [Releases page](https://github.com/Thunder2700c/Genshin-DPS-Archive-Releases/releases/latest).
+**Latest release:** [Open the Releases page](https://github.com/Thunder2700c/Genshin-DPS-Archive-Releases/releases/latest)
 
-The permanent direct-download link will be:
+Direct APK link:
 [Download Genshin-DPS-Archive.apk](https://github.com/Thunder2700c/Genshin-DPS-Archive-Releases/releases/latest/download/Genshin-DPS-Archive.apk)
 
-## Installing safely
+The direct link becomes available as soon as a release containing the APK has been successfully published. The Releases page also contains version notes, a SHA-256 checksum, and installation/verification notes.
 
-1. Download the APK only from this repository's Releases page.
-2. Open the downloaded APK and follow Android's installation prompt.
-3. If Google Play Protect recommends scanning an unfamiliar app, use the scan option and review the result. Do not disable Play Protect or ignore a harmful-app warning.
-4. Each release will include a SHA-256 checksum and signing-certificate fingerprint information to help users verify that later releases come from the same publisher.
+## What's included
 
-A valid signature and checksum help verify identity and file integrity; they do not mean Google has reviewed or certified the app.
+The app's character-building reference data is intended to cover the same core information as the Genshin DPS Archive website:
 
-## About this repository
+- Character builds and baseline recommendations
+- Minimum stats recommended for a baseline build
+- Minimum constellation used for the baseline recommendation
+- Recommended weapons
+- Recommended artifact sets
+- Recommended team compositions
 
-This public repository is for release notes, APK downloads, and verification instructions only. The development source remains in a separate private repository.
+These are reference recommendations, not guarantees of specific damage, and may change as the game is updated.
 
-Found a problem? Open an issue in this repository and include the app version and a description of the problem. Never post passwords, access tokens, or signing-key files.
+## Android compatibility
+
+- Android 8.0 or newer (API level 26+)
+- Package ID: `com.thunder2700c.genshindpsarchive`
+- Cost: free
+- Distribution: direct APK download; no Google Play purchase is required
+
+## Installation and safety
+
+1. Open the latest release and download `Genshin-DPS-Archive.apk`.
+2. Open the downloaded APK on your phone and follow Android's installation prompt. Android may ask you to allow installs from the app used to open the file.
+3. If Google Play Protect recommends scanning this unfamiliar app, choose the scan option and review the result. Do not disable Play Protect or ignore any harmful-app warning.
+
+Each release is intended to include `SHA256SUMS.txt` to check the downloaded file and `INSTALL-AND-VERIFY.txt` with the app's signing-certificate SHA-256 fingerprint. These help check file integrity and signing continuity; they do not mean Google has reviewed or certified the app.
+
+## Source and attribution
+
+Development source is maintained separately in a private repository. This public repository is for release notes, APK downloads, checksums, and installation guidance only.
+
+This is an unofficial fan-made project and is not affiliated with, endorsed by, or sponsored by HoYoverse. Genshin Impact names, characters, and related artwork belong to their respective rights holders.
+
+Please download APKs only from this official repository. Never post or request signing keys, passwords, or access tokens in public issues.
